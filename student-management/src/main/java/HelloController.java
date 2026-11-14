@@ -23,4 +23,10 @@ public class HelloController {
                 "Computer Science"
         );
     }
+
+    @GetMapping ("/suraj")
+    public String wishSuraj() {
+        return "Hello, suraj bhai how are you doing?";
+    }
+
 }
